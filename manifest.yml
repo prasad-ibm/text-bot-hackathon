@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: text-bot-hackathon
+  host: text-bot-hackathon
+  disk_quota: 1024M
+  services:
+  - text-bot-hackathon-cloudantNoSQLDB
